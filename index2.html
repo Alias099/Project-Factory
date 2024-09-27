@@ -8,16 +8,16 @@
   <body class="page2">
     <h1>فرم ثبت‌نام کارگران</h1>
     <div id="input_group">
-      <form action="#" method="post" id="Myform" onsubmit="MyFunction()">
+      <form action="#" method="post" id="Myform" onsubmit="return MyFunction()">
         <div>
           <label id="first_name" for="first_name">نام : </label>
-          <input type="text" name="User_Name" /> <br />
-          <span id="un_error"></span>
+          <input type="text" name="f_name" /> <br />
+          <span id="span_fname"></span>
         </div>
         <div>
           <label for="last_name">نام خانوادگی : </label>
-          <input name="User_Family" type="text" /> <br />
-          <span id="uf_error"></span>
+          <input name="l_name" type="text" /> <br />
+          <span id="span_lname"></span>
         </div>
         <div>
           <label id="pass" for="pass">کد پرسنلی : </label>
